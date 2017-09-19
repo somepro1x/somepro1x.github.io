@@ -1,0 +1,79 @@
+html{
+	overflow-x: hidden;
+}
+
+body{
+	background: url(../img/background.png) no-repeat center top;
+	background-size: 100%;
+background-size: cover;
+}
+
+
+.hui{
+	margin-top: 800px;
+}
+.modal-dialog{
+	width: 1500px;
+}
+
+section#chonsi55{
+	margin-top: 300px;
+	color: white;
+}
+section#chonsi55 h1{
+	font-weight: bold;
+	font-size: 100px;
+}
+section#chonsi55 h3{
+	font-size: 70px;
+}
+.btn-primary1{
+	background-color: green;
+	color: white;
+	border-color: white;
+}
+.btn-primary1:hover{
+	background-color: black;
+	border-color: white;
+	color: white;
+}
+.btn-chonsi55{
+	border:solid;
+	width: 500px;
+	height: 50px;
+	background-color: green;
+	border-color: white;
+	border-radius: 20px;
+	font-size: 20px;
+}
+.btn-chonsi55:hover{
+	width: 800px;
+	background-color: black;
+}
+.modal-title{
+	text-align: center;
+}
+section#footer{
+	margin-bottom: 2%;
+	margin-top: 400px;
+	color: white;
+	font-size: 40px;
+}
+section#footer i{
+
+	color: green;
+	margin-left: 25px;
+}
+section#footer i:hover{
+	color: white;
+}
+.btn-primary1{
+	font-size: 30px;
+}
+.fotorama__arr{
+	color: black;
+	background-color: black;
+}
+.modal-body{
+	background-color: black;
+}
