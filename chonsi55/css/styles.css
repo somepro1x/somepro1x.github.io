@@ -1,7 +1,10 @@
 html{
 	overflow-x: hidden;
+	height: 500px;
 }
-
+.hui2{
+	display: none;
+}
 body{
 	background: url(../img/background.png) no-repeat center top;
 	background-size: 100%;
@@ -54,8 +57,8 @@ section#chonsi55 h3{
 	text-align: center;
 }
 section#footer{
-	margin-bottom: 2%;
-	margin-top: 400px;
+	margin-bottom: 0;
+	margin-top: 350px;
 	color: white;
 	font-size: 40px;
 }
