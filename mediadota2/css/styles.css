@@ -1,0 +1,266 @@
+
+body{
+	max-height: 100%;
+	height: 980px;
+	overflow-x: hidden;
+		background: url(../img/bg1.png) center bottom no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+a:active, a:focus { 
+	outline: none; 
+}
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+
+.xx{
+	font-family: 'Poiret One', cursive;
+	box-shadow: 0 0 10px black;
+	padding-top: 60px;
+	height: 200px;
+	border-top: 2px solid black;
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.header{
+	font-family: 'Russo One', sans-serif;
+	margin-top: 40px;
+	height: 100px;
+}
+button.headerbutton{
+	box-shadow: 0 0 10px black; /* Параметры тени */
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+button.headerbutton:hover{
+	background-color: orange;
+
+}
+
+h1{
+	font-weight: bold;
+
+}
+html body section#main div.container div.row div.col-lg-12 div.dropdown button#dropdownMenu1.btn.btn-default.dropdown-toggle{
+	width: 700px;
+	margin-top: 30px;
+	font-family: 'Russo One', sans-serif;
+	box-shadow: 0 0 10px black;
+	border: 2px solid black;
+}
+html body section#main div.container div.row div.col-lg-12 div.dropdown button#dropdownMenu1.btn.btn-default.dropdown-toggle:hover{
+	background-color: orange;
+	color: black;
+}
+html body section#main div.container div.row div.col-lg-12.text-center div.dropdown.open ul.dropdown-menu{
+	text-align: center;
+
+}
+.nachalo{
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	color: black;
+}
+
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+button.bestofthebest{
+	margin-top: 30px;
+	box-shadow: 0 0 10px black; /* Параметры тени */
+	width: 600px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+	font-family: 'Russo One', sans-serif;
+}
+button.bestofthebest:hover{
+	background-color: orange;
+}
+
+a.carousel-control.right{
+	background-image: none;
+}
+a.carousel-control.left{
+	background-image: none;
+}
+span.glyphicon.glyphicon-chevron-right{
+	color:red;
+}
+span.glyphicon.glyphicon-chevron-left{
+	color:red;
+}
+span.glyphicon.glyphicon-chevron-right:hover{
+	color:white;
+}
+span.glyphicon.glyphicon-chevron-left:hover{
+	color:white;
+}
+#myCarousel{
+	border: 2px solid orange;
+}
+.carousel-inner{
+	height: 800px;
+}
+h2{
+	padding-top: 0;
+}
+h3{
+	margin-top: 500px;
+}
+#myCarousel li{
+	background-color: red;
+	width: 30px;
+	height: 10px;
+	border: 2px solid black;
+
+}
+#myCarousel li:hover{
+	background-color: white;
+	}
+#myCarousel li.active{
+	background-color: white;
+	}
+div.carousel-caption h3{
+	color: pink;
+	padding-bottom: 150px;
+	padding-left: 400px;
+		font-family: 'Russo One', sans-serif;
+	}
+button.buttonclose{
+margin-left: 80%;
+	font-size: 20px;
+	border-radius: 15px;
+	margin-top: 5px;
+	background-color: white;
+	width: 200px;
+	height: 40px;
+	border: 2px solid black;
+	font-family: 'Russo One', sans-serif;
+}
+button.buttonclose:hover{
+	background-color: orange;
+}
+
+
+ul.aboutme>li{
+		font-family: 'Russo One', sans-serif;
+
+	margin-left: 0;
+	display: block;
+}
+
+.modal-title{
+	font-family: 'Russo One', sans-serif;
+}
+.modal-footer{
+	font-family: 'Russo One', sans-serif;
+	border-top: 2px solid orange;
+}
+button.modalbutton{
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 0 0 10px black;
+}
+
+button.modalbutton:hover{
+	background-color: orange;
+}
+button.modalclose{
+	background-color: white;
+	border: none;
+	margin-left: 90%;
+	}
+	button.modalclose:hover{
+	color: red;
+	
+	}
+	.modal-header{
+		border-bottom: 2px solid orange;
+	}
+ 
+.fnp{
+	padding-bottom: 20px;
+
+
+}
+#modal3{
+		font-family: 'Russo One', sans-serif;
+}
+
+.vk{
+	font-size: 30px;
+	color: dodgerblue;
+	border: 2px solid orange;
+	border-radius: 40px;
+}
+#modal4{
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+}
+#modal1,#modal2,#modal3{
+	font-size: 20px;
+}
+
+.vk:hover{
+	background-color: orange;
+	color: white;
+	border: 2px solid black;
+}
+.vk:active{
+	color: black;
+}
+.vk:focus{
+	color: black;
+}
+
+#footer{
+	box-shadow: 0 0 10px black;
+	font-size: 30px;
+	font-family: 'Russo One', sans-serif;
+	margin-top: 18%;
+}
+.copyright{
+	padding-left: 2%;
+}
+.icons{
+	padding-right: 2%;
+}
+#footer a{
+	color: black;
+}
+#footer a:hover{
+	color: orange;
+}

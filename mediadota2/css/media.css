@@ -1,0 +1,63 @@
+@media (min-width: 993px) and (max-width: 1200px){
+
+}
+@media (min-width: 769px) and (max-width: 992px){
+	
+}
+@media (min-width: 481px) and (max-width: 768px){
+	#myCarousel > div > div.active.item > div > h3{
+        padding-left: 250px;
+        padding-bottom: 200px;
+		font-size: 15px;
+	}
+	button.bestofthebest{
+		width: 400px;
+	}
+	.carousel-inner{
+		height: 400px;
+	}
+	button.buttonclose{
+		margin-left: 60%;
+	}
+	.copyright{
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+}
+@media (min-width: 320px) and (max-width: 480px){
+
+		#myCarousel > div > div.active.item > div > h3{
+        padding-left: 100px;
+        padding-bottom: 200px;
+		font-size: 15px;
+	}
+		button.bestofthebest{
+		width: 200px;
+	}
+	.carousel-inner{
+		height: 200px;
+	}
+	button.buttonclose{
+		margin-left: 30%;
+	}
+	.copyright{
+		padding-left: 7%;
+		padding-right: 10%;
+	}
+	.mobile{
+		margin-bottom: 10px;
+	}
+	.header{
+		margin-top: 10px;
+	}
+	.modal-body{
+		font-size: 12px;
+	}
+	.fnp{
+		margin-top: 10px;
+	}
+	.fnpf{
+		margin-left: 15%;
+	}
+
+}
